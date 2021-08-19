@@ -12,22 +12,29 @@ const styles = {
   backgroundColor: "black",
 },
 
+  block: {
+    marginTop: "10px",
+    marginBottom: "20px",
+  }
+
 }
 
 function Experience() {
   return (
 
-    
     <Container style={styles.background}>
+      <div style={styles.block}>
       <Col style={styles.text}>
-        <h5>Technical know-how</h5>
-        
+        <h3>Technical know-how</h3>
         <h5>Languages: JavaScript, CSS, HTML5</h5>
         <h5>Applications:  GitHub, Heroku</h5>
         <h5>Tools: MySQL, Express, Node.js, Bootstrap, jQuery,</h5>
       </Col>
+      </div>
+
+      <div style={styles.block}>
       <Col style={styles.text}>
-        <h5>Work Experience</h5>
+        <h3>Work Experience</h3>
         <h5>Shift Supervisor, Master Control Sept. ‘06</h5>
         <h5>Supervised broadcast operations Warner Media’s entire domestic entertainment networks portfolio including HBO, Cinemax, TNT, TBS, Cartoon Network and NBATV.</h5>
         <h5>Resolved highly complex critical on-air issues to protect brand reputation, revenue and customer experience.</h5>      
@@ -37,16 +44,18 @@ function Experience() {
         <h5>Ensured continuity of Live Web Streaming services.</h5>
         <h5>Developed standard operating procedures.</h5>
       </Col>
+
+      </div>
       <Col style={styles.text}>
-        <h5>Education</h5>
+        <h3>Education</h3>
         <h5>Coding Bootcamp Certificate: Georgia Tech</h5>
         <h5>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</h5>
         <h5>Tools: MySQL, Express, Node.js, Bootstrap, jQuery,</h5>
         <h5>Bachelor of Arts</h5>
         <h5>College of Charleston, Charleston, SC</h5>
         <h5>CompTIA Network+ Certified </h5>
-      
       </Col>
+         
       <Row>
         <Col xs={8} md={4}>
           <a

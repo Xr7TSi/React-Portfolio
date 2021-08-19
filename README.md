@@ -7,7 +7,7 @@ Welcome to my portfolio.  You'll find links to some of my projects here.
 
 This portfolio uses React, Bootstrap, HTML and CSS.
 
-## [Go to Jonathan Rein's portfolio](https://xr7tsi.github.io/Portfolio-React/)
+## [Go to Jonathan Rein's portfolio](https://react-portfolio-xr7tsi.herokuapp.com/)
 
 ![portfolio-image](./src/assets/utility/portfolio-react-image.png)
 &nbsp;

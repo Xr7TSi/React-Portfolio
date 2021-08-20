@@ -27,7 +27,7 @@ function Experience() {
       <Col style={styles.text}>
         <h3>Technical know-how</h3>
         <h5>Languages: JavaScript, CSS, HTML5</h5>
-        <h5>Applications:  GitHub, Heroku</h5>
+        <h5>Applications:  GitHub, Heroku, Firebase</h5>
         <h5>Tools: MySQL, Express, Node.js, Bootstrap, jQuery,</h5>
       </Col>
       </div>

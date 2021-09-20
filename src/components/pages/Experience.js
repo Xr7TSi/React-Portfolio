@@ -35,7 +35,7 @@ function Experience() {
       <div style={styles.block}>
       <Col style={styles.text}>
         <h3>Work Experience</h3>
-        <h5>Shift Supervisor, Master Control Sept. ‘06</h5>
+        <h4>Shift Supervisor, Master Control Sept. ‘06</h4>
         <h5>Supervised broadcast operations Warner Media’s entire domestic entertainment networks portfolio including HBO, Cinemax, TNT, TBS, Cartoon Network and NBATV.</h5>
         <h5>Resolved highly complex critical on-air issues to protect brand reputation, revenue and customer experience.</h5>      
         <h5>Lead testing, training and development of Warner Media’s IP Infrastructure-based Master Control.</h5>
@@ -48,12 +48,12 @@ function Experience() {
       </div>
       <Col style={styles.text}>
         <h3>Education</h3>
-        <h5>Coding Bootcamp Certificate: Georgia Tech</h5>
+        <h4>Coding Bootcamp Certificate: Georgia Tech</h4>
         <h5>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</h5>
         <h5>Tools: MySQL, Express, Node.js, Bootstrap, jQuery,</h5>
-        <h5>Bachelor of Arts</h5>
+        <h4>Bachelor of Arts</h4>
         <h5>College of Charleston, Charleston, SC</h5>
-        <h5>CompTIA Network+ Certified </h5>
+        <h4>CompTIA Network+ Certified </h4>
       </Col>
          
       <Row>

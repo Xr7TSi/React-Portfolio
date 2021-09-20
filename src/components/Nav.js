@@ -86,7 +86,7 @@ const styles = {
     return (
     <div>
       <div style={styles.navbarLogo}>
-      <a className="nav" style={styles.navbarText} >Jonathan Rein</a>
+      <a className="nav" style={styles.navbarText} >J.D. Rein</a>
       </div>
     
         

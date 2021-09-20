@@ -38,7 +38,7 @@ const styles = {
 
       <ul className="nav nav-tabs"style={styles.navbarBackground}>
         <div style={styles.navbarText}>
-        <a className="navbar-brand" style={styles.navbarLogo} >Jonathan Rein </a>
+        <a className="navbar-brand" style={styles.navbarLogo} >J.D. Rein </a>
         </div>
           
         <li className="nav-item">

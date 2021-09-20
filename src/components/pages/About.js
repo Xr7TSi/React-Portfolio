@@ -7,7 +7,7 @@ function About() {
   return (
   <div className="container" id="home-text">
       <div className="col-md-12">
-          <h1>Hi. I'm Jonathan.  </h1>
+          <h1>Hi. I'm J.D.  </h1>
           <br></br>
           <Typist>
           <h3>I'm a full-stack web developer.</h3>

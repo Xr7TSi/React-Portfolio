@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 
 import birthday from "../../assets/work-images/Birthday-Clock-350x219.png";
 import news from "../../assets/work-images/News-Flash-350x219.png";
 import weather from "../../assets/work-images/Weather-Dashboard-350x219.png";
 import workday from "../../assets/work-images/Work-Day-Scheduler-350x219.png";
 import amazon from "../../assets/work-images/Amazon-Clone-Home-350x219.png";
-import postCenter from "../../assets/work-images/Amazon-Clone-Home-350x219.png";
+import postCenter from "../../assets/work-images/PostCenter-350x219.png";
 
 const styles = {
   caption: {
@@ -30,6 +30,41 @@ function Work() {
   return (
     <section>
       <Row>
+
+      <Col xs={11} md={4}>
+          <div className="image-container">
+            <img src={postCenter} alt="PostCenter" />
+          </div>
+          <div>
+            <h5 style={styles.caption}>PostCenter is a social media app.</h5>
+            <h5 style={styles.caption}>
+              It's a full-stack MERN application, deployed on an Amazon Web Services EC2 Ubuntu instance, using NGINX for reverse-proxy and Certbot for managing SSL.
+              It is fully containerized and can run in Docker containers for development. 
+              Post Center features options for Google OAuth and email login.
+            </h5>
+            <div className="button-container">
+              <a
+                href="https://github.com/Xr7TSi/Nginx-Docker-MERN-Project"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>See the repo</h5>
+              </a>
+              <a
+                href="https://xr7tsi.com/"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>See it deployed</h5>
+              </a>
+            </div>
+          </div>
+        </Col>
+
         <Col xs={11} md={4}>
           <div className="image-container">
             <img src={amazon} alt="Amazon" />
@@ -100,40 +135,6 @@ function Work() {
           </div>
         </Col>
 
-        <Col xs={11} md={4}>
-          <div className="image-container">
-            <img src={weather} alt="Weather Dashboard" />
-          </div>
-          <div>
-            <h5 style={styles.caption}>
-              Weather Dashboard provides weather data for any city in the world.
-            </h5>
-            <h5 style={styles.caption}>
-              It's built with JavaScript. It uses APIs, bootstrap and local
-              storage.
-            </h5>
-            <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/Weather-Dashboard"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
-              <a
-                href="https://xr7tsi.github.io/Weather-Dashboard/"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See it deployed</h5>
-              </a>
-            </div>
-          </div>
-        </Col>
       </Row>
 
       <Row>
@@ -162,6 +163,41 @@ function Work() {
               </a>
               <a
                 href="https://tick-tock-birthday-clock.herokuapp.com/"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>See it deployed</h5>
+              </a>
+            </div>
+          </div>
+        </Col>
+
+        <Col xs={11} md={4}>
+          <div className="image-container">
+            <img src={weather} alt="Weather Dashboard" />
+          </div>
+          <div>
+            <h5 style={styles.caption}>
+              Weather Dashboard provides weather data for any city in the world.
+            </h5>
+            <h5 style={styles.caption}>
+              It's built with JavaScript. It uses APIs, bootstrap and local
+              storage.
+            </h5>
+            <div className="button-container">
+              <a
+                href="https://github.com/Xr7TSi/Weather-Dashboard"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>See the repo</h5>
+              </a>
+              <a
+                href="https://xr7tsi.github.io/Weather-Dashboard/"
                 className="btn btn-primary"
                 style={styles.buttonPrimary}
                 target="_blank"
@@ -207,41 +243,6 @@ function Work() {
         </Col>
       </Row>
 
-      <Row>
-        <Col xs={11} md={4}>
-          <div className="image-container">
-            <img src={postCenter} alt="PostCenter" />
-          </div>
-          <div>
-            <h5 style={styles.caption}>PostCenter is a social media app.</h5>
-            <h5 style={styles.caption}>
-              It's a full-stack MERN application, deployed on an Amazon Web Services EC2 Ubuntu instance, using NGINX for reverse-proxy and Certbot for managing SSL.
-              It is fully containerized and can run in Docker containers for development. 
-              Post Center features options for Google OAuth and email login.
-            </h5>
-            <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/Nginx-Docker-MERN-Project"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
-              <a
-                href="https://xr7tsi.com/"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See it deployed</h5>
-              </a>
-            </div>
-          </div>
-        </Col>
-      </Row>
     </section>
   );
 }

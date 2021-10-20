@@ -38,7 +38,7 @@ const styles = {
 
       <ul className="nav nav-tabs"style={styles.navbarBackground}>
         <div style={styles.navbarText}>
-        <a className="navbar-brand" style={styles.navbarLogo} >J.D. Rein </a>
+        <a className="navbar-brand" style={styles.navbarLogo} href="/" >J.D. Rein </a>
         </div>
           
         <li className="nav-item">
@@ -56,7 +56,7 @@ const styles = {
             onClick={() => handlePageChange('Work')}
             className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
           >
-            Work
+            Projects
           </a>
         </li>
     
@@ -86,7 +86,7 @@ const styles = {
     return (
     <div>
       <div style={styles.navbarLogo}>
-      <a className="nav" style={styles.navbarText} >J.D. Rein</a>
+      <a className="nav" style={styles.navbarText} href="/" >J.D. Rein</a>
       </div>
     
         

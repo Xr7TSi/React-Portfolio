@@ -10,7 +10,8 @@ import phoneLogo from "../../assets/contact-images/phone-logo-175x175.png";
 const styles = {
   navbar: {
     color: "white",
-    backgroundColor: "rgb(30, 8, 153)",
+    // backgroundColor: "rgb(30, 8, 153)",
+    backgroundColor: "rgb(0,0,0)",
     fontSize: "24px",
     marginLeft: "25px",
   },

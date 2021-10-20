@@ -16,7 +16,8 @@ const styles = {
 
   buttonPrimary: {
     color: "white",
-    backgroundColor: "rgb(30, 8, 153)",
+    // backgroundColor: "rgb(30, 8, 153)",
+    backgroundColor: "rgb(0,0,0)",
     fontSize: "28px",
     marginLeft: "5px",
     marginRight: "5px",

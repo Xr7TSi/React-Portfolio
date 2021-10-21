@@ -1,6 +1,4 @@
-.super-text {
-  color: white
-}
+
 
 .row {
   margin-top: 10px;
@@ -107,7 +105,6 @@
 
 body {
   background-image: url(../assets/backgrounds/stripes-vertical-shadow-color-wallpaper-preview.jpg);
-  font-family: "Source+Sans+Pro", sans-serif;
 }
 
 

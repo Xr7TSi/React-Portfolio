@@ -25,7 +25,7 @@ function About() {
       <div className="col-md-12">
           <h1>J.D. REIN  </h1>
           <br></br>
-          <Typist>
+          <Typist cursor={{ show: false}}>
           <Typist.Delay ms={1500} />
           <h3>FULL-STACK WEB DEVELOPER</h3>
           <br></br>

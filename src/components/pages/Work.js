@@ -36,13 +36,14 @@ function Work() {
           <div className="image-container">
             <img src={postCenter} alt="PostCenter" />
           </div>
-          <div>
-            <h5 style={styles.caption}>PostCenter is a social media app.</h5>
-            <h5 style={styles.caption}>
-              It's hosted on an Amazon Web Services EC2 Ubuntu instance, using
-              NGINX for reverse-proxy and SSL. It is fully containerized and can
-              run in Docker containers for development. PostCenter features
-              options for Google OAuth and email login.
+          <div style={styles.caption}>
+            <h5>PostCenter is a social media app.</h5>
+            <h5>
+              It's hosted on an Amazon Web Services EC2 Ubuntu instance, using NGINX for reverse-proxy and SSL. It can run in Docker containers for development.
+            </h5 >
+            
+            <h5>
+            PostCenter features options for Google OAuth and email login.
             </h5>
             <div className="button-container">
               <a
@@ -71,11 +72,11 @@ function Work() {
           <div className="image-container">
             <img src={amazon} alt="Amazon" />
           </div>
-          <div>
-            <h5 style={styles.caption}>
+          <div style={styles.caption}>
+            <h5>
               Amazon Clone is a full-stack e-commerce application.
             </h5>
-            <h5 style={styles.caption}>
+            <h5>
               It's hosted on Google Firebase. It's built with React and uses
               Stripe payment processing.
             </h5>
@@ -110,12 +111,12 @@ function Work() {
           <div className="image-container">
             <img src={news} alt="News Flash" />
           </div>
-          <div>
-            <h5 style={styles.caption}>
+          <div style={styles.caption}>
+            <h5>
               News Flash gathers news based on the user's news category
               preferences.
             </h5>
-            <h5 style={styles.caption}>
+            <h5>
               It's built with JavaScript. It uses APIs, Bootstrap and local
               storage.
             </h5>
@@ -146,12 +147,12 @@ function Work() {
           <div className="image-container">
             <img src={birthday} alt="Birthday Clock" />
           </div>
-          <div>
-            <h5 style={styles.caption}>
+          <div style={styles.caption}>
+            <h5>
               Tick Tock Birthday Clock is a place to create and share birthday
               wishlists.
             </h5>
-            <h5 style={styles.caption}>
+            <h5>
               It's built with JavaScript. It uses MySQL, bcrypt, dotenv,
               Express, Handlebars.js and Bootstrap.
             </h5>
@@ -186,11 +187,11 @@ function Work() {
           <div className="image-container">
             <img src={weather} alt="Weather Dashboard" />
           </div>
-          <div>
-            <h5 style={styles.caption}>
+          <div style={styles.caption}>
+            <h5>
               Weather Dashboard provides weather data for any city in the world.
             </h5>
-            <h5 style={styles.caption}>
+            <h5>
               It's built with JavaScript. It uses third-party APIs, Bootstrap
               and local storage.
             </h5>
@@ -221,9 +222,9 @@ function Work() {
           <div className="image-container">
             <img src={workday} alt="Workday Scheduler" />
           </div>
-          <div>
-            <h5 style={styles.caption}>Workday Scheduler is a day planner.</h5>
-            <h5 style={styles.caption}>
+          <div style={styles.caption}>
+            <h5>Workday Scheduler is a day planner.</h5>
+            <h5>
               It's built with JavaScript. It uses moment.js, Bootstrap and local
               storage.
             </h5>

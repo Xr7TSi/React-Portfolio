@@ -1,6 +1,15 @@
 import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import resumeLogo from "../../assets/contact-images/resume-logo-175x175.jpg";
+import githubLogo from "../../assets/contact-images/github-logo-175x175.jpg";
+import dockerLogo from "../../assets/logos/docker-100.png";
+import ubuntuLogo from "../../assets/logos/ubuntu-100.png";
+import nginxLogo from "../../assets/logos/nginx-100.png";
+import mongoLogo from "../../assets/logos/mongo-100.png";
+import expressLogo from "../../assets/logos/express-100.png";
+import reactLogo from "../../assets/logos/react-100.png";
+import nodeLogo from "../../assets/logos/node-100.png";
+import awsLogo from "../../assets/logos/aws-100.png";
+import netplusLogo from "../../assets/logos/netplus-100.png";
 
 
 const styles = {
@@ -10,6 +19,13 @@ const styles = {
    marginTop: "20px",
    marginBottom: "20px",
  },
+
+ logo: {
+    marginTop: "10px",
+    marginBottom: "10px",
+    marginLeft: "10px",
+    marginRight: "10px",
+ }
 }
 
 function Experience() {
@@ -17,13 +33,24 @@ function Experience() {
 
     <Container>
     
-      
+    <Image style={styles.logo} src={awsLogo} rounded />
+    <Image style={styles.logo} src={dockerLogo} rounded />
+    <Image style={styles.logo} src={ubuntuLogo} rounded />
+    <Image style={styles.logo} src={nginxLogo} rounded />
+    <Image style={styles.logo} src={mongoLogo} rounded />
+    <Image style={styles.logo} src={expressLogo} rounded />
+    <Image style={styles.logo} src={reactLogo} rounded />
+    <Image style={styles.logo} src={awsLogo} rounded />
+    <Image style={styles.logo} src={netplusLogo} rounded />
+
+
+
       <Col style={styles.text}>
         <br></br>
         <h3>Technical know-how</h3>
-        <h5>▢ Technologies: Nginx, Docker, Certbot, EC2, Ubuntu, MySQL, Express, Node.js, Bootstrap</h5>
+        <h5>▢ Technologies: Docker, Ubuntu, Nginx, MongoDB, Express, React, Node.js</h5>
         <h5>▢ Languages: JavaScript, CSS, HTML5</h5>
-        <h5>▢ Hosting Environments:  AWS, Firebase, Heroku, GitHub Pages </h5>
+        <h5>▢ Hosting Environments:  Amazon Web Services EC2, Firebase, Heroku, GitHub Pages </h5>
         <br></br>
       </Col>
      
@@ -49,23 +76,11 @@ function Experience() {
         <h5>Tools: MySQL, Express, Node.js, Bootstrap, jQuery,</h5>
         <h4>▢ Bachelor of Arts</h4>
         <h5>College of Charleston, Charleston, SC</h5>
-        <h4>CompTIA Network+ Certified </h4>
+        <h4>▢ CompTIA Network+ Certified </h4>
         <br></br>
       </Col>
          
-      <Row>
-        <Col xs={8} md={4}>
-          <a
-            href="https://docs.google.com/document/d/e/2PACX-1vQNIXOZBbExarlcZ2Bx8j77IGd1GlLuicBgRYirct5Ru1CEIHU57YNGps_HXoIj_IOZ6AWQYV1ZtuSm/pub"
-            className="btn btn-primary"
-            style={styles.navbar}
-            target="_blank" rel="noopener noreferrer"
-          >
-            <Image src={resumeLogo} rounded />
-            <h5>Resume</h5>
-          </a>
-        </Col>
-      </Row>
+   
     </Container>
   );
 }

@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import githubLogo from "../../assets/contact-images/github-logo-175x175.jpg";
+import { Container, Col, Image } from "react-bootstrap";
 import dockerLogo from "../../assets/logos/docker-100.png";
 import ubuntuLogo from "../../assets/logos/ubuntu-100.png";
 import nginxLogo from "../../assets/logos/nginx-100.png";
@@ -33,6 +32,8 @@ function Experience() {
 
     <Container>
     
+
+  
     <Image style={styles.logo} src={awsLogo} rounded />
     <Image style={styles.logo} src={dockerLogo} rounded />
     <Image style={styles.logo} src={ubuntuLogo} rounded />
@@ -40,8 +41,10 @@ function Experience() {
     <Image style={styles.logo} src={mongoLogo} rounded />
     <Image style={styles.logo} src={expressLogo} rounded />
     <Image style={styles.logo} src={reactLogo} rounded />
-    <Image style={styles.logo} src={awsLogo} rounded />
+    <Image style={styles.logo} src={nodeLogo} rounded />
     <Image style={styles.logo} src={netplusLogo} rounded />
+    
+
 
 
 

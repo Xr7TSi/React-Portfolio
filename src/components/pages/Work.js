@@ -31,16 +31,18 @@ function Work() {
   return (
     <section>
       <Row>
-        <Col xs={11} md={4}>
+
+        <Col xs={12} md={6}>
           <div className="image-container">
             <img src={postCenter} alt="PostCenter" />
           </div>
           <div>
             <h5 style={styles.caption}>PostCenter is a social media app.</h5>
             <h5 style={styles.caption}>
-              It's hosted on an Amazon Web Services EC2 Ubuntu instance, using NGINX for reverse-proxy and SSL. It is fully containerized and can run in
-              Docker containers for development. PostCenter features options
-              for Google OAuth and email login.
+              It's hosted on an Amazon Web Services EC2 Ubuntu instance, using
+              NGINX for reverse-proxy and SSL. It is fully containerized and can
+              run in Docker containers for development. PostCenter features
+              options for Google OAuth and email login.
             </h5>
             <div className="button-container">
               <a
@@ -65,7 +67,7 @@ function Work() {
           </div>
         </Col>
 
-        <Col xs={11} md={4}>
+        <Col xs={12} md={6}>
           <div className="image-container">
             <img src={amazon} alt="Amazon" />
           </div>
@@ -74,8 +76,8 @@ function Work() {
               Amazon Clone is a full-stack e-commerce application.
             </h5>
             <h5 style={styles.caption}>
-              It's hosted on Google Firebase.
-              It's built with React and uses Stripe payment processing.
+              It's hosted on Google Firebase. It's built with React and uses
+              Stripe payment processing.
             </h5>
             <div className="button-container">
               <a
@@ -100,7 +102,11 @@ function Work() {
           </div>
         </Col>
 
-        <Col xs={11} md={4}>
+      </Row>
+
+      <Row>
+
+        <Col xs={12} md={6}>
           <div className="image-container">
             <img src={news} alt="News Flash" />
           </div>
@@ -135,10 +141,8 @@ function Work() {
             </div>
           </div>
         </Col>
-      </Row>
 
-      <Row>
-        <Col xs={11} md={4}>
+        <Col xs={12} md={6}>
           <div className="image-container">
             <img src={birthday} alt="Birthday Clock" />
           </div>
@@ -174,7 +178,11 @@ function Work() {
           </div>
         </Col>
 
-        <Col xs={11} md={4}>
+      </Row>
+
+      <Row>
+        
+        <Col xs={12} md={6}>
           <div className="image-container">
             <img src={weather} alt="Weather Dashboard" />
           </div>
@@ -183,8 +191,8 @@ function Work() {
               Weather Dashboard provides weather data for any city in the world.
             </h5>
             <h5 style={styles.caption}>
-              It's built with JavaScript. It uses third-party APIs, Bootstrap and local
-              storage.
+              It's built with JavaScript. It uses third-party APIs, Bootstrap
+              and local storage.
             </h5>
             <div className="button-container">
               <a
@@ -209,7 +217,7 @@ function Work() {
           </div>
         </Col>
 
-        <Col xs={11} md={4}>
+        <Col xs={12} md={6}>
           <div className="image-container">
             <img src={workday} alt="Workday Scheduler" />
           </div>
@@ -241,6 +249,7 @@ function Work() {
             </div>
           </div>
         </Col>
+
       </Row>
     </section>
   );

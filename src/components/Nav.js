@@ -59,6 +59,16 @@ const styles = {
             Projects
           </a>
         </li>
+
+        <li className="nav-item">
+          <a style={styles.navbarLocation}
+            href="#Experience"
+            onClick={() => handlePageChange('Experience')}
+            className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}
+          >
+            Experience
+          </a>
+        </li>
     
         <li className="nav-item">
           <a style={styles.navbarLocation}
@@ -70,15 +80,6 @@ const styles = {
           </a>
         </li>
 
-        <li className="nav-item">
-          <a style={styles.navbarLocation}
-            href="#Experience"
-            onClick={() => handlePageChange('Experience')}
-            className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}
-          >
-            Experience
-          </a>
-        </li>
       </ul>
     );
 
@@ -107,7 +108,17 @@ const styles = {
             onClick={() => handlePageChange('Work')}
             className={currentPage === 'Work' ? 'nav-link active' : 'nav-link'}
           >
-            Work
+            Projects
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a style={styles.navbarLocationMobile}
+            href="#Experience"
+            onClick={() => handlePageChange('Experience')}
+            className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}
+          >
+            Experience
           </a>
         </li>
     
@@ -121,15 +132,6 @@ const styles = {
           </a>
         </li>
 
-        <li className="nav-item">
-          <a style={styles.navbarLocationMobile}
-            href="#Experience"
-            onClick={() => handlePageChange('Experience')}
-            className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'}
-          >
-            Experience
-          </a>
-        </li>
       </ul>
       </div>
     );

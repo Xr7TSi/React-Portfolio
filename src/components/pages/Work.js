@@ -31,28 +31,18 @@ function Work() {
   return (
     <section>
       <Row>
-
-      <Col xs={11} md={4}>
+        <Col xs={11} md={4}>
           <div className="image-container">
             <img src={postCenter} alt="PostCenter" />
           </div>
           <div>
             <h5 style={styles.caption}>PostCenter is a social media app.</h5>
             <h5 style={styles.caption}>
-              It's a full-stack MERN application, deployed on an Amazon Web Services EC2 Ubuntu instance, using NGINX for reverse-proxy and Certbot for managing SSL.
-              It is fully containerized and can run in Docker containers for development. 
-              Post Center features options for Google OAuth and email login.
+              It's hosted on an Amazon Web Services EC2 Ubuntu instance, using NGINX for reverse-proxy and SSL. It is fully containerized and can run in
+              Docker containers for development. PostCenter features options
+              for Google OAuth and email login.
             </h5>
             <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/Nginx-Docker-MERN-Project"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
               <a
                 href="https://xr7tsi.com/"
                 className="btn btn-primary"
@@ -60,7 +50,16 @@ function Work() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h5>See it deployed</h5>
+                <h5>Deployed App</h5>
+              </a>
+              <a
+                href="https://github.com/Xr7TSi/Nginx-Docker-MERN-Project"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>Repository</h5>
               </a>
             </div>
           </div>
@@ -75,18 +74,10 @@ function Work() {
               Amazon Clone is a full-stack e-commerce application.
             </h5>
             <h5 style={styles.caption}>
-              It's built with React, Firebase and Stripe.
+              It's hosted on Google Firebase.
+              It's built with React and uses Stripe payment processing.
             </h5>
             <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/News-Flash"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
               <a
                 href="https://clone-14498.web.app/"
                 className="btn btn-primary"
@@ -94,7 +85,16 @@ function Work() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h5>See it deployed</h5>
+                <h5>Deployed App</h5>
+              </a>
+              <a
+                href="https://github.com/Xr7TSi/News-Flash"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>Repository</h5>
               </a>
             </div>
           </div>
@@ -110,19 +110,10 @@ function Work() {
               preferences.
             </h5>
             <h5 style={styles.caption}>
-              It's built with JavaScript. It uses APIs, bootstrap and local
+              It's built with JavaScript. It uses APIs, Bootstrap and local
               storage.
             </h5>
             <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/News-Flash"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
               <a
                 href="https://xr7tsi.github.io/News-Flash/"
                 className="btn btn-primary"
@@ -130,12 +121,20 @@ function Work() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h5>See it deployed</h5>
+                <h5>Deployed App</h5>
+              </a>
+              <a
+                href="https://github.com/Xr7TSi/News-Flash"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>Repository</h5>
               </a>
             </div>
           </div>
         </Col>
-
       </Row>
 
       <Row>
@@ -149,19 +148,10 @@ function Work() {
               wishlists.
             </h5>
             <h5 style={styles.caption}>
-              It's built with JavaScript. It uses mysql, bcrypt, dotenv,
-              express, handlebars, bootstrap, session and sequelize.
+              It's built with JavaScript. It uses MySQL, bcrypt, dotenv,
+              Express, Handlebars.js and Bootstrap.
             </h5>
             <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
               <a
                 href="https://tick-tock-birthday-clock.herokuapp.com/"
                 className="btn btn-primary"
@@ -169,7 +159,16 @@ function Work() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h5>See it deployed</h5>
+                <h5>Deployed App</h5>
+              </a>
+              <a
+                href="https://github.com/Xr7TSi/Tick-Tock-Birthday-Clock/"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>Repository</h5>
               </a>
             </div>
           </div>
@@ -184,19 +183,10 @@ function Work() {
               Weather Dashboard provides weather data for any city in the world.
             </h5>
             <h5 style={styles.caption}>
-              It's built with JavaScript. It uses APIs, bootstrap and local
+              It's built with JavaScript. It uses third-party APIs, Bootstrap and local
               storage.
             </h5>
             <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/Weather-Dashboard"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
               <a
                 href="https://xr7tsi.github.io/Weather-Dashboard/"
                 className="btn btn-primary"
@@ -204,7 +194,16 @@ function Work() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h5>See it deployed</h5>
+                <h5>Deployed App</h5>
+              </a>
+              <a
+                href="https://github.com/Xr7TSi/Weather-Dashboard"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>Repository</h5>
               </a>
             </div>
           </div>
@@ -217,19 +216,10 @@ function Work() {
           <div>
             <h5 style={styles.caption}>Workday Scheduler is a day planner.</h5>
             <h5 style={styles.caption}>
-              It's built with JavaScript. It uses moment.js, bootstrap and local
+              It's built with JavaScript. It uses moment.js, Bootstrap and local
               storage.
             </h5>
             <div className="button-container">
-              <a
-                href="https://github.com/Xr7TSi/Workday-Scheduler/"
-                className="btn btn-primary"
-                style={styles.buttonPrimary}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <h5>See the repo</h5>
-              </a>
               <a
                 href="https://xr7tsi.github.io/Workday-Scheduler/"
                 className="btn btn-primary"
@@ -237,13 +227,21 @@ function Work() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h5>See it deployed</h5>
+                <h5>Deployed App</h5>
+              </a>
+              <a
+                href="https://github.com/Xr7TSi/Workday-Scheduler/"
+                className="btn btn-primary"
+                style={styles.buttonPrimary}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h5>Repository</h5>
               </a>
             </div>
           </div>
         </Col>
       </Row>
-
     </section>
   );
 }

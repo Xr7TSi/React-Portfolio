@@ -2,7 +2,18 @@ import React from 'react';
 import Typist from 'react-typist';
 import lava from '../../assets/animations/lava.mp4';
 
-
+const styles = {
+  nameTextLg: {
+    color: "white",
+    fontSize: "70px",
+    letterSpacing: "12px",
+  },
+  nameTextMd: {
+    color: "white",
+    fontSize: "55px",
+    letterSpacing: "10px",
+  },
+};
 
 
 function About() {
@@ -25,7 +36,7 @@ function About() {
     </video>
 
       <div className="col-md-12">
-          <h1>J.D. REIN  </h1>
+          <h1 style={styles.nameTextLg}>J.D. REIN</h1>
           <br></br>
           <Typist cursor={{ show: false}}>
           <Typist.Delay ms={1500} />
@@ -56,7 +67,7 @@ function About() {
       </video>
   
         <div className="col-md-12">
-            <h1>J.D. REIN  </h1>
+            <h1 style={styles.nameTextMd}>J.D. REIN  </h1>
             <br></br>
             <Typist cursor={{ show: false}}>
             <Typist.Delay ms={1500} />

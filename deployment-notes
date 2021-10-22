@@ -1,10 +1,6 @@
-Deployed on Heroku
+Deployed on AWS S3.  Domain redirected to jdrein.com/www.jdrein.com by AWS Route 53.
 
-https://git.heroku.com/react-portfolio-jrein.git
-
-For new builds: git push heroku master
-
-TO run build locally:
+To run build locally:
 
 npm install -g serve
 serve -s build

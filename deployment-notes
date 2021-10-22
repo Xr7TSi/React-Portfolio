@@ -3,3 +3,8 @@ Deployed on Heroku
 https://git.heroku.com/react-portfolio-jrein.git
 
 For new builds: git push heroku master
+
+TO run build locally:
+
+npm install -g serve
+serve -s build

@@ -1,0 +1,5 @@
+Deployed on Heroku
+
+https://git.heroku.com/react-portfolio-jrein.git
+
+For new builds: git push heroku master

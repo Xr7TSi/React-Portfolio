@@ -1,30 +1,32 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.918d4872.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.3168b365.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.3168b365.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.46f29e21.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.c36879cd.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.c36879cd.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.17c06b35.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.17c06b35.js.map",
     "static/css/2.27dd871e.chunk.css": "/React-Portfolio/static/css/2.27dd871e.chunk.css",
-    "static/js/2.89d3e6eb.chunk.js": "/React-Portfolio/static/js/2.89d3e6eb.chunk.js",
-    "static/js/2.89d3e6eb.chunk.js.map": "/React-Portfolio/static/js/2.89d3e6eb.chunk.js.map",
+    "static/js/2.e1e7f2e0.chunk.js": "/React-Portfolio/static/js/2.e1e7f2e0.chunk.js",
+    "static/js/2.e1e7f2e0.chunk.js.map": "/React-Portfolio/static/js/2.e1e7f2e0.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
     "static/css/2.27dd871e.chunk.css.map": "/React-Portfolio/static/css/2.27dd871e.chunk.css.map",
-    "static/css/main.918d4872.chunk.css.map": "/React-Portfolio/static/css/main.918d4872.chunk.css.map",
-    "static/js/2.89d3e6eb.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.89d3e6eb.chunk.js.LICENSE.txt",
+    "static/css/main.46f29e21.chunk.css.map": "/React-Portfolio/static/css/main.46f29e21.chunk.css.map",
+    "static/js/2.e1e7f2e0.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.e1e7f2e0.chunk.js.LICENSE.txt",
     "static/media/Amazon-Clone-Home-350x219.45604b3c.png": "/React-Portfolio/static/media/Amazon-Clone-Home-350x219.45604b3c.png",
     "static/media/Birthday-Clock-350x219.80cfba0f.png": "/React-Portfolio/static/media/Birthday-Clock-350x219.80cfba0f.png",
     "static/media/News-Flash-350x219.df518c31.png": "/React-Portfolio/static/media/News-Flash-350x219.df518c31.png",
+    "static/media/PostCenter-350x219.2d09cea0.png": "/React-Portfolio/static/media/PostCenter-350x219.2d09cea0.png",
     "static/media/Weather-Dashboard-350x219.e051d363.png": "/React-Portfolio/static/media/Weather-Dashboard-350x219.e051d363.png",
     "static/media/Work-Day-Scheduler-350x219.e1bd8891.png": "/React-Portfolio/static/media/Work-Day-Scheduler-350x219.e1bd8891.png",
+    "static/media/lava.36a43da7.mp4": "/React-Portfolio/static/media/lava.36a43da7.mp4",
     "static/media/phone-logo-175x175.4cd97821.png": "/React-Portfolio/static/media/phone-logo-175x175.4cd97821.png",
     "static/media/style.css": "/React-Portfolio/static/media/stripes-vertical-shadow-color-wallpaper-preview.e2a4872a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.17c06b35.js",
     "static/css/2.27dd871e.chunk.css",
-    "static/js/2.89d3e6eb.chunk.js",
-    "static/css/main.918d4872.chunk.css",
-    "static/js/main.3168b365.chunk.js"
+    "static/js/2.e1e7f2e0.chunk.js",
+    "static/css/main.46f29e21.chunk.css",
+    "static/js/main.c36879cd.chunk.js"
   ]
 }

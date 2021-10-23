@@ -1,5 +1,8 @@
 Deployed on AWS S3.  Domain redirected to jdrein.com/www.jdrein.com by AWS Route 53.
 
+Instructions on how to implement SSL on AWS S3: https://adamtheautomator.com/aws-s3-static-ssl-website/
+
+
 To run build locally:
 
 npm install -g serve

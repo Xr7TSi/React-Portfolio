@@ -9,6 +9,9 @@ import reactLogo from "../../assets/logos/react-100.png";
 import nodeLogo from "../../assets/logos/node-100.png";
 import awsLogo from "../../assets/logos/aws-100.png";
 import netplusLogo from "../../assets/logos/netplus-100.png";
+import awsS3Logo from "../../assets/logos/awss3-100.png";
+import route53Logo from "../../assets/logos/route53-100.png";
+import awsec2Logo from "../../assets/logos/awsec2-100.png";
 
 
 const styles = {
@@ -33,6 +36,9 @@ function Experience() {
     <Container>
     
     <Image style={styles.logo} src={awsLogo} rounded />
+    <Image style={styles.logo} src={awsec2Logo} rounded />
+    <Image style={styles.logo} src={route53Logo} rounded />
+    <Image style={styles.logo} src={awsS3Logo} rounded />
     <Image style={styles.logo} src={dockerLogo} rounded />
     <Image style={styles.logo} src={ubuntuLogo} rounded />
     <Image style={styles.logo} src={nginxLogo} rounded />
@@ -47,7 +53,7 @@ function Experience() {
         <h3>Technical know-how</h3>
         <h5>▢ Technologies: Docker, Ubuntu, Nginx, MongoDB, Express, React, Node.js</h5>
         <h5>▢ Languages: JavaScript, CSS, HTML5</h5>
-        <h5>▢ Hosting Environments:  Amazon Web Services EC2, Firebase, Heroku, GitHub Pages </h5>
+        <h5>▢ Hosting Environments:  Amazon Web Services EC2, AWS S3, Firebase, Heroku, GitHub Pages </h5>
         <br></br>
       </Col>
      

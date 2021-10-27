@@ -39,12 +39,12 @@ function Work() {
           <div style={styles.caption}>
             <h5>PostCenter is a social media app.</h5>
             <h5>
-              It's hosted on an Amazon Web Services EC2 Ubuntu instance, using NGINX for reverse-proxy and SSL. It can run in Docker containers for development.
+              It's hosted on an Amazon Web Services EC2 Ubuntu instance, using NGINX for proxy and SSL. It can run in Docker containers for development.
             </h5 >
-            
             <h5>
             PostCenter features options for Google OAuth and email login.
             </h5>
+            <h5>It uses some free-tier services and may be a bit slow to load!</h5>
             <div className="button-container">
               <a
                 href="https://xr7tsi.com/"
@@ -149,7 +149,7 @@ function Work() {
           </div>
           <div style={styles.caption}>
             <h5>
-              Tick Tock Birthday Clock is a place to create and share birthday
+              Tick Tock Birthday Clock is a app for sharing birthday
               wishlists.
             </h5>
             <h5>

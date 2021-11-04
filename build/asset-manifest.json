@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7bb00b47.chunk.css",
-    "main.js": "/static/js/main.ff639a36.chunk.js",
-    "main.js.map": "/static/js/main.ff639a36.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.4fa033c1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.4fa033c1.js.map",
-    "static/css/2.27dd871e.chunk.css": "/static/css/2.27dd871e.chunk.css",
-    "static/js/2.e1e7f2e0.chunk.js": "/static/js/2.e1e7f2e0.chunk.js",
-    "static/js/2.e1e7f2e0.chunk.js.map": "/static/js/2.e1e7f2e0.chunk.js.map",
+    "main.css": "/static/css/main.2735df30.chunk.css",
+    "main.js": "/static/js/main.15d4e3b4.chunk.js",
+    "main.js.map": "/static/js/main.15d4e3b4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b341c984.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b341c984.js.map",
+    "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
+    "static/js/2.ee187ff4.chunk.js": "/static/js/2.ee187ff4.chunk.js",
+    "static/js/2.ee187ff4.chunk.js.map": "/static/js/2.ee187ff4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.27dd871e.chunk.css.map": "/static/css/2.27dd871e.chunk.css.map",
-    "static/css/main.7bb00b47.chunk.css.map": "/static/css/main.7bb00b47.chunk.css.map",
-    "static/js/2.e1e7f2e0.chunk.js.LICENSE.txt": "/static/js/2.e1e7f2e0.chunk.js.LICENSE.txt",
+    "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.2735df30.chunk.css.map": "/static/css/main.2735df30.chunk.css.map",
+    "static/js/2.ee187ff4.chunk.js.LICENSE.txt": "/static/js/2.ee187ff4.chunk.js.LICENSE.txt",
     "static/media/Amazon-Clone-Home-350x219.45604b3c.png": "/static/media/Amazon-Clone-Home-350x219.45604b3c.png",
     "static/media/Birthday-Clock-350x219.80cfba0f.png": "/static/media/Birthday-Clock-350x219.80cfba0f.png",
     "static/media/News-Flash-350x219.df518c31.png": "/static/media/News-Flash-350x219.df518c31.png",
@@ -23,10 +23,10 @@
     "static/media/style.css": "/static/media/stripes-vertical-shadow-color-wallpaper-preview.e2a4872a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4fa033c1.js",
-    "static/css/2.27dd871e.chunk.css",
-    "static/js/2.e1e7f2e0.chunk.js",
-    "static/css/main.7bb00b47.chunk.css",
-    "static/js/main.ff639a36.chunk.js"
+    "static/js/runtime-main.b341c984.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.ee187ff4.chunk.js",
+    "static/css/main.2735df30.chunk.css",
+    "static/js/main.15d4e3b4.chunk.js"
   ]
 }

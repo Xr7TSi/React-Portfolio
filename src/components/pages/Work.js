@@ -23,6 +23,11 @@ const styles = {
     marginRight: "5px",
     marginTop: "45px",
   },
+
+  // when app is served from build folder, some content shifts left.  marginLeft fixes it.
+  columnShift: {
+    marginLeft: "30px",
+  }
 };
 
 // additional styling in styles/styles.css
@@ -33,6 +38,7 @@ function Work() {
       <Row>
 
         <Col xs={12} md={6}>
+        <div style={styles.columnShift}>
           <div className="image-container">
             <img src={postCenter} alt="PostCenter" />
           </div>
@@ -66,9 +72,11 @@ function Work() {
               </a>
             </div>
           </div>
+        </div>  
         </Col>
 
         <Col xs={12} md={6}>
+        <div style={styles.columnShift}>  
           <div className="image-container">
             <img src={amazon} alt="Amazon" />
           </div>
@@ -101,6 +109,7 @@ function Work() {
               </a>
             </div>
           </div>
+        </div>
         </Col>
 
       </Row>
@@ -108,6 +117,7 @@ function Work() {
       <Row>
 
         <Col xs={12} md={6}>
+        <div style={styles.columnShift}>
           <div className="image-container">
             <img src={news} alt="News Flash" />
           </div>
@@ -141,9 +151,11 @@ function Work() {
               </a>
             </div>
           </div>
+        </div>
         </Col>
 
         <Col xs={12} md={6}>
+        <div style={styles.columnShift}>
           <div className="image-container">
             <img src={birthday} alt="Birthday Clock" />
           </div>
@@ -177,6 +189,7 @@ function Work() {
               </a>
             </div>
           </div>
+        </div>
         </Col>
 
       </Row>
@@ -184,6 +197,7 @@ function Work() {
       <Row>
         
         <Col xs={12} md={6}>
+        <div style={styles.columnShift}>
           <div className="image-container">
             <img src={weather} alt="Weather Dashboard" />
           </div>
@@ -216,9 +230,11 @@ function Work() {
               </a>
             </div>
           </div>
+        </div>
         </Col>
 
         <Col xs={12} md={6}>
+        <div style={styles.columnShift}>
           <div className="image-container">
             <img src={workday} alt="Workday Scheduler" />
           </div>
@@ -249,6 +265,7 @@ function Work() {
               </a>
             </div>
           </div>
+        </div>
         </Col>
 
       </Row>

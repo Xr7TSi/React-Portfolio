@@ -13,7 +13,8 @@ const styles = {
     // backgroundColor: "rgb(30, 8, 153)",
     backgroundColor: "rgb(0,0,0)",
     fontSize: "24px",
-    marginLeft: "25px",
+    // when app is served from build folder, some content shifts left.  marginLeft fixes it.
+    marginLeft: "30px",
   },
 };
 
@@ -21,7 +22,7 @@ function Contact() {
   return (
     <Container>
       <Row>
-        <Col xs={11} md={4}>
+        <Col xs={12} md={4}>
           <a
             href="https://github.com/Xr7TSi"
             className="btn btn-primary"
@@ -33,9 +34,9 @@ function Contact() {
           </a>
         </Col>
 
-        <Col xs={11} md={4}>
+        <Col xs={12} md={4}>
           <a
-            href="https://www.linkedin.com/in/jonathan-rein"
+            href="https://www.linkedin.com/in/jd-rein"
             className="btn btn-primary"
             style={styles.navbar}
             target="_blank" rel="noopener noreferrer"
@@ -45,7 +46,7 @@ function Contact() {
           </a>
         </Col>
 
-        <Col xs={11} md={4}>
+        <Col xs={12} md={4}>
           <a
             href="https://docs.google.com/document/d/e/2PACX-1vQNIXOZBbExarlcZ2Bx8j77IGd1GlLuicBgRYirct5Ru1CEIHU57YNGps_HXoIj_IOZ6AWQYV1ZtuSm/pub"
             className="btn btn-primary"
@@ -57,7 +58,7 @@ function Contact() {
           </a>
         </Col>
 
-        <Col xs={11} md={4}>
+        <Col xs={12} md={4}>
           <a
             href="tel:404-667-3545"
             className="btn btn-primary"
@@ -69,7 +70,7 @@ function Contact() {
           </a>
         </Col>
 
-        <Col xs={11} md={4}>
+        <Col xs={12} md={4}>
           <a
             href="mailto: jrein1296@gmail.com"
             className="btn btn-primary"
@@ -81,7 +82,7 @@ function Contact() {
           </a>
         </Col>
 
-        <Col xs={11} md={4}>
+        <Col xs={12} md={4}>
           <a
             href="https://www.strava.com/athletes/jonathan_rein"
             className="btn btn-primary"
@@ -101,3 +102,5 @@ function Contact() {
 
 
 export default Contact;
+
+

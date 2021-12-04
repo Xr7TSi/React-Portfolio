@@ -26,7 +26,7 @@ const styles = {
  text2: {
   color: 'white',
   backgroundColor: "#404040",
-  marginTop: "-20px",
+  marginTop: "-25px",
   marginBottom: "20px",
 },
 

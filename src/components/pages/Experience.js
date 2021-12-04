@@ -28,7 +28,15 @@ const styles = {
     marginBottom: "10px",
     marginLeft: "10px",
     marginRight: "10px",
- }
+ },
+
+ buttonPrimary: {
+  color: "white",
+  backgroundColor: "#404040",
+  fontSize: "28px",
+  marginTop: "1px",
+  marginBottom: "15px",
+}
 }
 
 function Experience() {
@@ -53,6 +61,7 @@ function Experience() {
       <Col style={styles.text}>
         <br></br>
         <h3>Technical know-how</h3>
+        <br></br>
         <h5>▢ Technologies: Docker, Ubuntu, Nginx, OutSystems, MongoDB, Express, React, Node.js</h5>
         <h5>▢ Languages: JavaScript, CSS, HTML5</h5>
         <h5>▢ Hosting Environments:  Amazon Web Services EC2, AWS S3, Firebase, Heroku, GitHub Pages </h5>
@@ -60,9 +69,21 @@ function Experience() {
       </Col>
      
       <Col style={styles.text}>
-      <br></br>
+        <br></br>
         <h3>Work Experience</h3>
-        <h4>Master Control Shift Supervisor, Warner Media Sept. ‘06</h4>
+        <br></br>
+        <h4>Web Developer, Institute for Electronics and Nanotechnology, Georgia Tech Dec. '21 - present</h4>
+        <h5>▢ Develop Shared User Management System, an application that manages access to labs and equipment.</h5>
+        <a 
+            href="https://sums.gatech.edu/" 
+            target="_blank" rel="noopener noreferrer" 
+            className="btn btn-primary"
+            style={styles.buttonPrimary}>
+            <h5>Go to sums.gatech.edu</h5>
+        </a>
+        <br></br>
+        <br></br>
+        <h4>Shift Supervisor, Master Control, Warner Media. Sept. ‘06</h4>
         <h5>▢ Supervised broadcast operations Warner Media’s entire domestic entertainment networks portfolio including HBO, Cinemax, TNT, TBS, Cartoon Network and NBATV.</h5>
         <h5>▢ Resolved highly complex critical on-air issues to protect brand reputation, revenue and customer experience.</h5>      
         <h5>▢ Lead testing, training and development of Warner Media’s IP Infrastructure-based Master Control.</h5>
@@ -71,17 +92,20 @@ function Experience() {
         <h5>▢ Ensured continuity of Live Web Streaming services.</h5>
         <h5>▢ Developed standard operating procedures.</h5>
         <br></br>
-      </Col>
+      </Col>.
     
       <Col style={styles.text}>
-      <br></br>
-        <h3>Education</h3>
+        <br></br>
+        <h3>Education and Certifications</h3>
+        <br></br>
         <h4>▢ Coding Bootcamp Certificate: Georgia Tech</h4>
         <h5>A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</h5>
         <h5>Tools: MySQL, Express, Node.js, Bootstrap, jQuery,</h5>
+        <br></br>
+        <h4>▢ CompTIA Network+ Certified </h4>
+        <br></br>
         <h4>▢ Bachelor of Arts</h4>
         <h5>College of Charleston, Charleston, SC</h5>
-        <h4>▢ CompTIA Network+ Certified </h4>
         <br></br>
       </Col>
          

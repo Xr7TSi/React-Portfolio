@@ -12,6 +12,7 @@ import netplusLogo from "../../assets/logos/netplus-100.png";
 import awsS3Logo from "../../assets/logos/awss3-100.png";
 import route53Logo from "../../assets/logos/route53-100.png";
 import awsec2Logo from "../../assets/logos/awsec2-100.png";
+import outsystemsLogo from "../../assets/logos/outsystems-100.png";
 
 
 const styles = {
@@ -47,11 +48,12 @@ function Experience() {
     <Image style={styles.logo} src={reactLogo} rounded />
     <Image style={styles.logo} src={nodeLogo} rounded />
     <Image style={styles.logo} src={netplusLogo} rounded />
+    <Image style={styles.logo} src={outsystemsLogo} rounded />
     
       <Col style={styles.text}>
         <br></br>
         <h3>Technical know-how</h3>
-        <h5>▢ Technologies: Docker, Ubuntu, Nginx, MongoDB, Express, React, Node.js</h5>
+        <h5>▢ Technologies: Docker, Ubuntu, Nginx, OutSystems, MongoDB, Express, React, Node.js</h5>
         <h5>▢ Languages: JavaScript, CSS, HTML5</h5>
         <h5>▢ Hosting Environments:  Amazon Web Services EC2, AWS S3, Firebase, Heroku, GitHub Pages </h5>
         <br></br>

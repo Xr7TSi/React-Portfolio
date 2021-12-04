@@ -43,7 +43,7 @@ function About() {
           <h3>FULL-STACK WEB DEVELOPER</h3>
           <br></br>
           <Typist.Delay ms={500} />
-          <h3>Working with AWS, Docker, Ubuntu, Nginx, MongoDB, Express, React, Node.js and more.</h3>
+          <h3>Working with AWS, Docker, Ubuntu, Nginx, OutSystems, MongoDB, Express, React, Node.js.</h3>
           </Typist>
       </div>
   </div>

@@ -19,9 +19,16 @@ const styles = {
  text: {
    color: 'white',
    backgroundColor: "#404040",
-   marginTop: "20px",
+   marginTop: "10px",
    marginBottom: "20px",
  },
+
+ text2: {
+  color: 'white',
+  backgroundColor: "#404040",
+  marginTop: "-20px",
+  marginBottom: "20px",
+},
 
  logo: {
     marginTop: "10px",
@@ -94,7 +101,7 @@ function Experience() {
         <br></br>
       </Col>.
     
-      <Col style={styles.text}>
+      <Col style={styles.text2}>
         <br></br>
         <h3>Education and Certifications</h3>
         <br></br>
@@ -109,7 +116,6 @@ function Experience() {
         <br></br>
       </Col>
          
-   
     </Container>
   );
 }

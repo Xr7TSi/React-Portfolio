@@ -12,7 +12,7 @@ import netplusLogo from "../../assets/logos/netplus-100.png";
 import awsS3Logo from "../../assets/logos/awss3-100.png";
 import route53Logo from "../../assets/logos/route53-100.png";
 import awsec2Logo from "../../assets/logos/awsec2-100.png";
-import outsystemsLogo from "../../assets/logos/outsystems-100.png";
+
 
 
 const styles = {
@@ -63,13 +63,13 @@ function Experience() {
     <Image style={styles.logo} src={reactLogo} rounded />
     <Image style={styles.logo} src={nodeLogo} rounded />
     <Image style={styles.logo} src={netplusLogo} rounded />
-    <Image style={styles.logo} src={outsystemsLogo} rounded />
+  
     
       <Col style={styles.text}>
         <br></br>
         <h3>Technical know-how</h3>
         <br></br>
-        <h5>▢ Technologies: Docker, Ubuntu, Nginx, OutSystems, MongoDB, Express, React, Node.js</h5>
+        <h5>▢ Technologies: Docker, Ubuntu, Nginx, MongoDB, Express, React, Node.js</h5>
         <h5>▢ Languages: JavaScript, CSS, HTML5</h5>
         <h5>▢ Hosting Environments:  Amazon Web Services EC2, AWS S3, Firebase, Heroku, GitHub Pages </h5>
         <br></br>
@@ -79,17 +79,7 @@ function Experience() {
         <br></br>
         <h3>Work Experience</h3>
         <br></br>
-        <h4>Web Developer, Institute for Electronics and Nanotechnology, Georgia Tech Dec. '21 - present</h4>
-        <h5>▢ Develop Shared User Management System, an application that manages access to labs and equipment.</h5>
-        <a 
-            href="https://sums.gatech.edu/" 
-            target="_blank" rel="noopener noreferrer" 
-            className="btn btn-primary"
-            style={styles.buttonPrimary}>
-            <h5>Go to sums.gatech.edu</h5>
-        </a>
-        <br></br>
-        <br></br>
+
         <h4>Shift Supervisor, Master Control, Warner Media. Sept. ‘06</h4>
         <h5>▢ Supervised broadcast operations Warner Media’s entire domestic entertainment networks portfolio including HBO, Cinemax, TNT, TBS, Cartoon Network and NBATV.</h5>
         <h5>▢ Resolved highly complex critical on-air issues to protect brand reputation, revenue and customer experience.</h5>      

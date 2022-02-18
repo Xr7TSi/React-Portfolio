@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.2735df30.chunk.css",
-    "main.js": "/static/js/main.6a154846.chunk.js",
-    "main.js.map": "/static/js/main.6a154846.chunk.js.map",
+    "main.js": "/static/js/main.d5a19d66.chunk.js",
+    "main.js.map": "/static/js/main.d5a19d66.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b341c984.js",
     "runtime-main.js.map": "/static/js/runtime-main.b341c984.js.map",
     "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/Birthday-Clock-350x219.80cfba0f.png": "/static/media/Birthday-Clock-350x219.80cfba0f.png",
     "static/media/News-Flash-350x219.df518c31.png": "/static/media/News-Flash-350x219.df518c31.png",
     "static/media/PostCenter-350x219.2d09cea0.png": "/static/media/PostCenter-350x219.2d09cea0.png",
+    "static/media/Ticketing-App-350x219.c0bf786e.png": "/static/media/Ticketing-App-350x219.c0bf786e.png",
     "static/media/Weather-Dashboard-350x219.e051d363.png": "/static/media/Weather-Dashboard-350x219.e051d363.png",
     "static/media/Work-Day-Scheduler-350x219.e1bd8891.png": "/static/media/Work-Day-Scheduler-350x219.e1bd8891.png",
     "static/media/lava.36a43da7.mp4": "/static/media/lava.36a43da7.mp4",
@@ -27,6 +28,6 @@
     "static/css/2.081f420c.chunk.css",
     "static/js/2.ee187ff4.chunk.js",
     "static/css/main.2735df30.chunk.css",
-    "static/js/main.6a154846.chunk.js"
+    "static/js/main.d5a19d66.chunk.js"
   ]
 }

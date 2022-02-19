@@ -54,10 +54,12 @@ function Work() {
                 NGINX.
               </h5>
               <h5>
-                This app features email authentication for new user and password
-                reset functions when connected to your email server.
+                It features email authentication for new user and password
+                reset functions.
               </h5>
               <h5>It's built with React, Nodejs Express, and MongoDB.</h5>
+              <h5>Login with email: visitor@test.com &nbsp; password:  Visitor1! </h5>
+              <h5>Or, just create your own account.</h5>
               <div className="button-container">
                 <a
                   href="https://jonathanrein.com/"

@@ -15,6 +15,7 @@ const styles = {
     fontSize: "24px",
     // when app is served from build folder, some content shifts left.  marginLeft fixes it.
     marginLeft: "30px",
+    boxShadow: "2px 2px 2px black",
   },
 };
 

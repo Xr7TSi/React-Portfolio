@@ -23,6 +23,12 @@ const styles = {
     marginLeft: "5px",
     marginRight: "5px",
     marginTop: "45px",
+    boxShadow: "2px 2px 2px black",
+  },
+
+  border: {
+    borderRadius: "5px",
+    boxShadow: "2px 2px 2px black",
   },
 
   // when app is served from build folder, some content shifts left.  marginLeft fixes it.
@@ -45,6 +51,7 @@ function Work() {
                 width="350"
                 height="219"
                 alt="Ticketing Application"
+                style={styles.border}
               />
             </div>
             <div style={styles.caption}>
@@ -54,11 +61,13 @@ function Work() {
                 NGINX.
               </h5>
               <h5>
-                It features email authentication for new user and password
-                reset functions.
+                It features email authentication for new user and password reset
+                functions.
               </h5>
               <h5>It's built with React, Nodejs Express, and MongoDB.</h5>
-              <h5>Login with email: visitor@test.com &nbsp; password:  Visitor1! </h5>
+              <h5>
+                Login with email: visitor@test.com &nbsp; password: Visitor1!{" "}
+              </h5>
               <h5>Or, just create your own account.</h5>
               <div className="button-container">
                 <a
@@ -87,7 +96,13 @@ function Work() {
         <Col xs={12} md={6}>
           <div style={styles.columnShift}>
             <div className="image-container">
-              <img src={postCenter} width="350" height="219" alt="PostCenter" />
+              <img
+                src={postCenter}
+                width="350"
+                height="219"
+                alt="PostCenter"
+                style={styles.border}
+              />
             </div>
             <div style={styles.caption}>
               <h5>PostCenter is a social media app.</h5>
@@ -99,7 +114,8 @@ function Work() {
                 PostCenter features options for Google OAuth and email login.
               </h5>
               <h5>
-                It uses a free-tier database service so may be a bit slow to load.
+                It uses a free-tier database service. It may be a bit slow to
+                load.
               </h5>
               <div className="button-container">
                 <a
@@ -127,10 +143,10 @@ function Work() {
       </Row>
 
       <Row>
-       <Col xs={12} md={6}>
+        <Col xs={12} md={6}>
           <div style={styles.columnShift}>
             <div className="image-container">
-              <img src={amazon} alt="Amazon" />
+              <img src={amazon} alt="Amazon" style={styles.border} />
             </div>
             <div style={styles.caption}>
               <h5>Amazon Clone is a full-stack e-commerce application.</h5>
@@ -161,11 +177,11 @@ function Work() {
             </div>
           </div>
         </Col>
-        
+
         <Col xs={12} md={6}>
           <div style={styles.columnShift}>
             <div className="image-container">
-              <img src={news} alt="News Flash" />
+              <img src={news} alt="News Flash" style={styles.border} />
             </div>
             <div style={styles.caption}>
               <h5>
@@ -200,13 +216,12 @@ function Work() {
           </div>
         </Col>
       </Row>
-      
 
       <Row>
         <Col xs={12} md={6}>
           <div style={styles.columnShift}>
             <div className="image-container">
-              <img src={birthday} alt="Birthday Clock" />
+              <img src={birthday} alt="Birthday Clock" style={styles.border} />
             </div>
             <div style={styles.caption}>
               <h5>
@@ -244,7 +259,11 @@ function Work() {
         <Col xs={12} md={6}>
           <div style={styles.columnShift}>
             <div className="image-container">
-              <img src={weather} alt="Weather Dashboard" />
+              <img
+                src={weather}
+                alt="Weather Dashboard"
+                style={styles.border}
+              />
             </div>
             <div style={styles.caption}>
               <h5>
@@ -284,7 +303,11 @@ function Work() {
         <Col xs={12} md={6}>
           <div style={styles.columnShift}>
             <div className="image-container">
-              <img src={workday} alt="Workday Scheduler" />
+              <img
+                src={workday}
+                alt="Workday Scheduler"
+                style={styles.border}
+              />
             </div>
             <div style={styles.caption}>
               <h5>Workday Scheduler is a day planner.</h5>

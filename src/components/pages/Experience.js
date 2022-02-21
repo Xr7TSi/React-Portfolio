@@ -21,6 +21,11 @@ const styles = {
    backgroundColor: "#404040",
    marginTop: "10px",
    marginBottom: "20px",
+   borderRadius: "5px",
+   borderStyle: "solid",
+   borderColor: "blue",
+   borderWidth: "1px",
+   boxShadow: "2px 2px 2px black",
  },
 
  text2: {
@@ -28,6 +33,11 @@ const styles = {
   backgroundColor: "#404040",
   marginTop: "-25px",
   marginBottom: "20px",
+  borderRadius: "5px",
+  borderStyle: "solid",
+  borderColor: "blue",
+  borderWidth: "1px",
+  boxShadow: "2px 2px 2px black",
 },
 
  logo: {
@@ -35,15 +45,13 @@ const styles = {
     marginBottom: "10px",
     marginLeft: "10px",
     marginRight: "10px",
+    borderRadius: "5px",
+    borderStyle: "solid",
+    borderColor: "blue",
+    borderWidth: "2px",
+    boxShadow: "2px 2px 2px black",
  },
 
- buttonPrimary: {
-  color: "white",
-  backgroundColor: "#404040",
-  fontSize: "28px",
-  marginTop: "1px",
-  marginBottom: "15px",
-}
 }
 
 function Experience() {

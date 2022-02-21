@@ -99,7 +99,7 @@ function Work() {
                 PostCenter features options for Google OAuth and email login.
               </h5>
               <h5>
-                It uses some free-tier services and may be a bit slow to load!
+                It uses a free-tier database service so may be a bit slow to load.
               </h5>
               <div className="button-container">
                 <a

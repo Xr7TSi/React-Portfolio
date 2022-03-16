@@ -16,7 +16,7 @@ const styles = {
 };
 
 
-function About() {
+function Home() {
 
   if (window.innerWidth >= 880)
   return (
@@ -83,4 +83,4 @@ function About() {
 
 
 
-export default About;
+export default Home;

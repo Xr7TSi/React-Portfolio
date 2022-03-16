@@ -36,20 +36,12 @@ const styles = {
     if (window.innerWidth >= 880)
     return (
 
+        // since the initial state (defined in Container.js) is "Home", the Home page is displayed at the http://localhost:3000/ route.
       <ul className="nav nav-tabs"style={styles.navbarBackground}>
         <div style={styles.navbarText}>
-        <a className="navbar-brand" style={styles.navbarLogo} href="/" >J.D. Rein </a>
+        <a className="navbar-brand" style={styles.navbarLogo} href="/" onClick={() => handlePageChange('Home')} >J.D. Rein </a>
         </div>
           
-        <li className="nav-item">
-          <a style={styles.navbarLocation}
-            href="#About"
-            onClick={() => handlePageChange('About')}
-            className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          >
-            About
-          </a>
-        </li>
         <li className="nav-item">
           <a style={styles.navbarLocation}
             href="#work"

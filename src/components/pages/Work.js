@@ -55,10 +55,10 @@ function Work() {
               />
             </div>
             <div style={styles.caption}>
-              <h5>Ticketing App is a Customer Relationship Management Tool.</h5>
+              <h5>Ticketing App is a tool for tracking issues.</h5>
               <h5>
                 It's hosted on an Amazon Web Services EC2 Ubuntu instance, using
-                NGINX.
+                Nginx as reverse proxy.
               </h5>
               <h5>
                 It features email authentication for new user and password reset
@@ -108,7 +108,7 @@ function Work() {
               <h5>PostCenter is a social media app.</h5>
               <h5>
                 It's hosted on an Amazon Web Services EC2 Ubuntu instance, using
-                NGINX. It can run in Docker containers for development.
+                Nginx as reverse proxy. It can run in Docker containers for development.
               </h5>
               <h5>
                 PostCenter features options for Google OAuth and email login.

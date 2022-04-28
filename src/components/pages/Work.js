@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
 
-import ticketing from "../../assets/work-images/Ticketing-App-350x219.png";
+import ticketing from "../../assets/work-images/Ticketing-App-350x219-New-Colors.png";
 import birthday from "../../assets/work-images/Birthday-Clock-350x219.png";
 import news from "../../assets/work-images/News-Flash-350x219.png";
 import weather from "../../assets/work-images/Weather-Dashboard-350x219.png";
